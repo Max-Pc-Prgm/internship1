@@ -1,15 +1,29 @@
 import './App.css';
-import Header from './Header';
-import Menu from './Menu';
-import Dashboard from './Dashboard';
-import Footer from './Footer';
 function App() {
   return (
-    <div class="wrapper">
-<Header/> 
-<Menu/> 
-<Dashboard/>
-<Footer/>  </div>
+    <div >
+      <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form action="masterhome">
+        <h3>Login Here</h3>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username"/>
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password"/>
+
+        <a href="masterhome"><button>Log In</button></a>
+        <div class="social">
+          <div class="go"><i class="fab fa-google"></i>  Google</div>
+          <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+        </div>
+    </form>
+       
+   
+    </div>
   );
 }
 

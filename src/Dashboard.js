@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class Dashboard extends Component {
     render() {
@@ -10,7 +10,7 @@ export default class Dashboard extends Component {
       <div className="container-fluid">
         <div className="row mb-2">
           <div className="col-sm-6">
-            <h1 className="m-0 text-dark">Dashboard</h1>
+            <h1 className="m-0 text-dark">Master</h1>
           </div>{/* /.col */}
           <div className="col-sm-6">
             <ol className="breadcrumb float-sm-right">
@@ -143,7 +143,7 @@ export default class Dashboard extends Component {
                   {/* Message. Default to the left */}
                   <div className="direct-chat-msg">
                     <div className="direct-chat-infos clearfix">
-                      <span className="direct-chat-name float-left">Alexander Pierce</span>
+                      <span className="direct-chat-name float-left">Appsoft Infosystem</span>
                       <span className="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                     </div>
                     {/* /.direct-chat-infos */}
@@ -295,16 +295,7 @@ export default class Dashboard extends Component {
                 {/* /.direct-chat-pane */}
               </div>
               {/* /.card-body */}
-              <div className="card-footer">
-                <form action="#" method="post">
-                  <div className="input-group">
-                    <input type="text" name="message" placeholder="Type Message ..." className="form-control" />
-                    <span className="input-group-append">
-                      <button type="button" className="btn btn-primary">Send</button>
-                    </span>
-                  </div>
-                </form>
-              </div>
+             
               {/* /.card-footer*/}
             </div>
             {/*/.direct-chat */}
