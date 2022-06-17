@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes,Route} from "react-router-dom";
 import MasterHome from './master/MasterHome';
 import Contact from './Contact';
+import  AddFormClient from "./master/AddClientForm";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,8 @@ root.render(
       <Route path="/"  element={<App />}/>
       <Route path="masterhome" element={<MasterHome/>}/>
       <Route path="contact" element={<Contact/>}/>
+      <Route path="addclientform" element={<AddFormClient/>}/>
+
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

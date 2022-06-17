@@ -1,0 +1,99 @@
+
+.baseform{
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.hea{
+    margin-left: 450px;
+    padding-bottom: 10px;
+}
+.hea1{
+    margin-left: 460px;
+    font-weight: 500px;
+    padding-bottom: 10px;  
+    margin-bottom: 50px; 
+}
+
+.address{
+    margin-left: 0px;
+}
+.card-head{ 
+    background-color:#9ba3b0;
+}
+
+.lab{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: large;
+}
+.text-field-align{
+    margin-left:-365px;
+}
+.date-field-align{
+    margin-left: -182px;
+    width:710px;
+}
+.card-head-margin{
+    margin :40px;
+width:1118px;
+margin-left:-20px;
+}
+
+
+.card1 {
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card-header1 {
+   
+    margin-bottom: 0;
+  
+}
+.card-body1{
+    
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.row11{
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+}
+
+.col1 {
+
+    flex-basis: 0;
+   
+    flex-grow: 1;
+    max-width: 100%;
+}
+.form-control1 {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    box-shadow: inset 0 0 0 transparent;
+    
+}

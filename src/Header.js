@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-
+import "./Header.css";
 export default class Header extends Component {
     render() {
         return (
            <div>
-  <nav className="main-header navbar navbar-expand navbar-white navbar-light">
+  <nav className="main-header navbar navbar-expand navbar-white navbar-light fixing">
     {/* Left navbar links */}
     <ul className="navbar-nav">
       <li className="nav-item">
