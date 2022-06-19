@@ -1,0 +1,57 @@
+.men{
+    background-color: aliceblue;
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.men h5{
+margin-left: 450px;
+padding:10px;
+font-size: 29px;
+}
+.men thead{
+    margin-top:300px;
+    font-size: large;
+    border-bottom: 1px solid black;
+    
+}
+.thead-flex{
+    display:flex;
+}
+.card{
+    background-color: aliceblue;
+}
+.th1{
+
+    width:100px;
+
+}
+
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control-underlined {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  padding-left: 0;
+}
+.search-bar{
+    width:300px;
+    display:flex;
+    margin-top: -50px;
+    margin-left: 800px;
+}
+.icon-ser{
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.scrollit {
+    overflow:scroll;
+    height:600px;
+}
+

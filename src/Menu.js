@@ -76,10 +76,10 @@ export default class Menu extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <a href="pages/layout/boxed.html" className="nav-link">
+              <Link to="/listuser"  className="nav-link">
                   <i className="far fa-circle nav-icon" />
                   <p>List Client</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a href="pages/layout/fixed-sidebar.html" className="nav-link">

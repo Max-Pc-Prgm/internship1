@@ -7,6 +7,7 @@ import {BrowserRouter, Routes,Route} from "react-router-dom";
 import MasterHome from './master/MasterHome';
 import Contact from './Contact';
 import  AddFormClient from "./master/AddClientForm";
+import ListUser from './master/ListUser';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,8 @@ root.render(
       <Route path="masterhome" element={<MasterHome/>}/>
       <Route path="contact" element={<Contact/>}/>
       <Route path="addclientform" element={<AddFormClient/>}/>
+      <Route path="listuser" element={<ListUser/>}/>
+
 
     </Routes>
     </BrowserRouter>
